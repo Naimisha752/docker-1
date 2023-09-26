@@ -1,1 +1,2 @@
-# docker-1
+FROM nginx
+COPY . /usr/share/nginx/html
